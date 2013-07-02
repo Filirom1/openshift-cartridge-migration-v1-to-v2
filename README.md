@@ -70,6 +70,8 @@ You may want to migrate v1 applications to v2 format.
 The following script will destroy the application and recreate it with the same cartridge.
 It doesn't dump database, you will have to do it yourself.
 
+Execute these scripts on the broker server.
+
     add-admin-key.sh  # upload your ssh public key for a user
     check-v2.sh       # check if the remote SSH_URI use cartridge v2 (it connect with ssh to check)
     get-apps.js       # list apps for a user
