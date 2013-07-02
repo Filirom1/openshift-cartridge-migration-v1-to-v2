@@ -78,3 +78,8 @@ It doesn't dump database, you will have to do it yourself.
     list-apps-v1.sh   # list all v1 apps
     migrate-auto.sh   # automatically migrate apps to v2 format for a given cartridge
     migrate.sh        # manually migrate gears. Use `get-apps-v1.sh` to fill params
+
+## Warning
+
+Don't use this scripts blindly and at your own risks.
+But it may help you to write your own migration scripts
