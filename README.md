@@ -70,11 +70,11 @@ You may want to migrate v1 applications to v2 format.
 The following script will destroy the application and recreate it with the same cartridge.
 It doesn't dump database, you will have to do it yourself.
 
-add-admin-key.sh  # upload your ssh public key for a user
-check-v2.sh       # check if the remote SSH_URI use cartridge v2 (it connect with ssh to check)
-get-apps.js       # list apps for a user
-get-apps-v1.sh    # list v1 apps for a user
-get-users.sh      # list all users
-list-apps-v1.sh   # list all v1 apps
-migrate-auto.sh   # automatically migrate apps to v2 format for a given cartridge
-migrate.sh        # manually migrate gears. Use `get-apps-v1.sh` to fill params
+    add-admin-key.sh  # upload your ssh public key for a user
+    check-v2.sh       # check if the remote SSH_URI use cartridge v2 (it connect with ssh to check)
+    get-apps.js       # list apps for a user
+    get-apps-v1.sh    # list v1 apps for a user
+    get-users.sh      # list all users
+    list-apps-v1.sh   # list all v1 apps
+    migrate-auto.sh   # automatically migrate apps to v2 format for a given cartridge
+    migrate.sh        # manually migrate gears. Use `get-apps-v1.sh` to fill params
